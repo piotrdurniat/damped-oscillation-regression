@@ -27,7 +27,7 @@ The exponential term $e^{-\lambda x}$ creates a numerical problem during optimiz
 To overcome this issue, a parameter transformation was implemented. Instead of directly optimizing $\lambda$, a parameter $\theta$ is optimized and $\lambda$ is derived using the softplus function:
 
 $$
-\lambda = \operatorname{softplus}(\theta) = \ln(1 + e^{\theta})
+\lambda = \text{softplus}(\theta) = \ln(1 + e^{\theta})
 $$
 
 This reparameterization ensures $\lambda$ remains strictly positive and fixes the exploding gradient problem
