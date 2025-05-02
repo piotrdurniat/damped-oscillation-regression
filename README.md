@@ -8,7 +8,9 @@ Code is available in the [damped-oscillation-regression.ipynb](damped-oscillatio
 
 ## Description
 
-The model minimizes the mean squared error between predictions and observed data using a damped oscillation function defined as:
+The model allows for finding the optimal parameters of the damped oscillation function that describe the underlying oscillatory pattern.
+
+The model works by iteratively minimizing the mean squared error between predictions and observed data (using gradient descent) for a damped oscillation function defined as:
 
 $$
 y(x) = y_0 + A e^{-\lambda x} \cdot \cos(\omega x + \varphi)
