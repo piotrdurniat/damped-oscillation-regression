@@ -2,6 +2,10 @@
 
 Code is available in the [damped-oscillation-regression.ipynb](damped-oscillation-regression.ipynb) notebook.
 
+## Example
+
+![Example](./example.png)
+
 ## Description
 
 The model minimizes the mean squared error between predictions and observed data using a damped oscillation function defined as:
